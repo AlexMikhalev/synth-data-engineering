@@ -1,0 +1,41 @@
+{
+    "type": "array",
+    "length": {
+      "type": "number",
+      "range": {
+        "low": 1,
+        "high": 55,
+        "step": 1
+      },
+      "subtype": "u64"
+    },
+    "content": {
+        "type": "object",
+        "id": {
+            "type": "number",
+            "subtype": "u64",
+            "id": {
+              "start_at": 0
+            }
+        },
+        "data":{
+            "type": "datasource",
+            "path": "json:iodata.json",
+            "cycle": true
+          },
+            "timestamp": {
+                "type": "date_time",
+                "format": "%Y-%m-%dT%H:%M:%S%z",
+                "begin": "2000-01-01T00:00:00+0000",
+                "end": "2020-01-01T00:00:00+0000"
+              },
+              "device_id": {
+                "type": "same_as",
+                "ref": "device.content.id"
+              },
+              "device_type": {
+                "type": "same_as",
+                "ref": "device.content.device_type"
+              }
+    }
+}

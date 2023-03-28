@@ -1,0 +1,36 @@
+{
+    "type": "array",
+    "length": {
+      "type": "number",
+      "range": {
+        "low": 1,
+        "high": 4,
+        "step": 1
+      },
+      "subtype": "u64"
+    },
+    "content": {
+      "type": "object",
+      "is_active": {
+        "type": "bool",
+        "frequency": 0.5
+      },
+      "id": {
+        "type": "number",
+        "range": {
+          "low": 1,
+          "high": 4,
+          "step": 1
+        },
+        "subtype": "u64"
+      },
+      "device_type": {
+        "type": "string",
+        "categorical": {
+          "flow": 8,
+          "temperature": 1,
+          "accelerometer": 1
+        }
+      }
+    }
+}

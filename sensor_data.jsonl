@@ -1,0 +1,46 @@
+{"data":"<much wow=\"xml\"/>","device_id":3,"device_type":"accelerometer","id":0,"timestamp":"2017-05-31T04:10:48+0000"}
+{"data":{"appinfoA":"abc","appinfoB":123,"appinfoC":true},"device_id":1,"device_type":"temperature","id":1,"timestamp":"2013-07-17T23:18:51+0000"}
+{"data":1.5,"device_id":1,"device_type":"flow","id":2,"timestamp":"2013-04-26T07:34:51+0000"}
+{"data":"I'm just a string","device_id":3,"device_type":"accelerometer","id":3,"timestamp":"2001-10-01T22:52:57+0000"}
+{"data":"eyAieHl6IjogMTIzIH0=","device_id":1,"device_type":"temperature","id":4,"timestamp":"2005-01-01T09:05:50+0000"}
+{"data":"<much wow=\"xml\"/>","device_id":1,"device_type":"flow","id":5,"timestamp":"2012-09-08T19:14:16+0000"}
+{"data":{"appinfoA":"abc","appinfoB":123,"appinfoC":true},"device_id":3,"device_type":"accelerometer","id":6,"timestamp":"2003-09-26T07:22:09+0000"}
+{"data":1.5,"device_id":1,"device_type":"temperature","id":7,"timestamp":"2000-05-11T21:20:53+0000"}
+{"data":"I'm just a string","device_id":1,"device_type":"flow","id":8,"timestamp":"2008-11-01T22:38:23+0000"}
+{"data":"eyAieHl6IjogMTIzIH0=","device_id":3,"device_type":"accelerometer","id":9,"timestamp":"2018-04-26T12:47:22+0000"}
+{"data":"<much wow=\"xml\"/>","device_id":1,"device_type":"temperature","id":10,"timestamp":"2002-02-19T07:38:25+0000"}
+{"data":{"appinfoA":"abc","appinfoB":123,"appinfoC":true},"device_id":1,"device_type":"flow","id":11,"timestamp":"2010-04-24T14:56:15+0000"}
+{"data":1.5,"device_id":3,"device_type":"accelerometer","id":12,"timestamp":"2006-03-24T22:07:39+0000"}
+{"data":"I'm just a string","device_id":1,"device_type":"temperature","id":13,"timestamp":"2010-06-04T22:41:42+0000"}
+{"data":"eyAieHl6IjogMTIzIH0=","device_id":1,"device_type":"flow","id":14,"timestamp":"2019-09-24T06:11:12+0000"}
+{"data":"<much wow=\"xml\"/>","device_id":3,"device_type":"accelerometer","id":15,"timestamp":"2011-12-22T18:20:24+0000"}
+{"data":{"appinfoA":"abc","appinfoB":123,"appinfoC":true},"device_id":1,"device_type":"temperature","id":16,"timestamp":"2006-03-26T10:19:11+0000"}
+{"data":1.5,"device_id":1,"device_type":"flow","id":17,"timestamp":"2004-04-21T14:19:16+0000"}
+{"data":"I'm just a string","device_id":3,"device_type":"accelerometer","id":18,"timestamp":"2001-05-09T15:59:20+0000"}
+{"data":"eyAieHl6IjogMTIzIH0=","device_id":1,"device_type":"temperature","id":19,"timestamp":"2013-01-21T12:18:54+0000"}
+{"data":"<much wow=\"xml\"/>","device_id":1,"device_type":"flow","id":20,"timestamp":"2017-07-06T00:34:16+0000"}
+{"data":{"appinfoA":"abc","appinfoB":123,"appinfoC":true},"device_id":3,"device_type":"accelerometer","id":21,"timestamp":"2017-05-04T04:28:05+0000"}
+{"data":1.5,"device_id":1,"device_type":"temperature","id":22,"timestamp":"2006-02-07T16:54:06+0000"}
+{"data":"I'm just a string","device_id":1,"device_type":"flow","id":23,"timestamp":"2014-01-02T00:45:29+0000"}
+{"data":"eyAieHl6IjogMTIzIH0=","device_id":3,"device_type":"accelerometer","id":24,"timestamp":"2012-09-05T16:45:13+0000"}
+{"data":"<much wow=\"xml\"/>","device_id":1,"device_type":"temperature","id":25,"timestamp":"2011-05-07T18:38:09+0000"}
+{"data":{"appinfoA":"abc","appinfoB":123,"appinfoC":true},"device_id":1,"device_type":"flow","id":26,"timestamp":"2013-04-07T14:31:57+0000"}
+{"data":1.5,"device_id":3,"device_type":"accelerometer","id":27,"timestamp":"2011-10-12T23:55:57+0000"}
+{"data":"I'm just a string","device_id":1,"device_type":"temperature","id":28,"timestamp":"2002-01-28T04:31:21+0000"}
+{"data":"eyAieHl6IjogMTIzIH0=","device_id":1,"device_type":"flow","id":29,"timestamp":"2008-03-23T01:32:24+0000"}
+{"data":"<much wow=\"xml\"/>","device_id":3,"device_type":"accelerometer","id":30,"timestamp":"2019-07-24T14:14:53+0000"}
+{"data":{"appinfoA":"abc","appinfoB":123,"appinfoC":true},"device_id":1,"device_type":"temperature","id":31,"timestamp":"2017-12-25T16:50:42+0000"}
+{"data":1.5,"device_id":1,"device_type":"flow","id":32,"timestamp":"2011-10-03T20:28:13+0000"}
+{"data":"I'm just a string","device_id":3,"device_type":"accelerometer","id":33,"timestamp":"2000-10-31T13:16:01+0000"}
+{"data":"eyAieHl6IjogMTIzIH0=","device_id":1,"device_type":"temperature","id":34,"timestamp":"2004-07-05T10:37:42+0000"}
+{"data":"<much wow=\"xml\"/>","device_id":1,"device_type":"flow","id":35,"timestamp":"2019-04-22T02:29:19+0000"}
+{"data":{"appinfoA":"abc","appinfoB":123,"appinfoC":true},"device_id":3,"device_type":"accelerometer","id":36,"timestamp":"2010-10-20T05:33:50+0000"}
+{"data":1.5,"device_id":1,"device_type":"temperature","id":37,"timestamp":"2007-07-01T17:29:01+0000"}
+{"data":"I'm just a string","device_id":1,"device_type":"flow","id":38,"timestamp":"2012-10-17T20:51:53+0000"}
+{"data":"eyAieHl6IjogMTIzIH0=","device_id":3,"device_type":"accelerometer","id":39,"timestamp":"2008-06-15T00:33:19+0000"}
+{"data":"<much wow=\"xml\"/>","device_id":1,"device_type":"temperature","id":40,"timestamp":"2005-09-14T10:03:52+0000"}
+{"data":{"appinfoA":"abc","appinfoB":123,"appinfoC":true},"device_id":1,"device_type":"flow","id":41,"timestamp":"2013-02-28T19:54:07+0000"}
+{"data":1.5,"device_id":3,"device_type":"accelerometer","id":42,"timestamp":"2019-12-15T02:56:15+0000"}
+{"data":"I'm just a string","device_id":1,"device_type":"temperature","id":43,"timestamp":"2000-10-26T03:10:10+0000"}
+{"data":"eyAieHl6IjogMTIzIH0=","device_id":1,"device_type":"flow","id":44,"timestamp":"2005-07-20T21:14:45+0000"}
+{"data":"<much wow=\"xml\"/>","device_id":3,"device_type":"accelerometer","id":45,"timestamp":"2004-02-12T22:53:42+0000"}

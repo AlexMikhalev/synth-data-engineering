@@ -1,0 +1,11 @@
+[
+    "<much wow=\"xml\"/>",
+    {
+      "appinfoA" : "abc",
+      "appinfoB" : 123,
+      "appinfoC" : true
+    },
+    1.5,
+    "I'm just a string",
+    "eyAieHl6IjogMTIzIH0="
+  ]
