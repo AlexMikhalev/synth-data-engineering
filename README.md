@@ -151,12 +151,13 @@ function test-generate() {
 And the same approach can be applied to end to end tests for more complex pipelines: **check the difference between generated and landed data**
 
 # Further reading
-Bank data [tutorial](https://www.getsynth.com/docs/examples/bank)
+* Bank data [tutorial](https://www.getsynth.com/docs/examples/bank)
+* Creating log data [Tutorial](https://www.getsynth.com/docs/tutorials/creating-logs-with-synth)
 
 # Further work for Synth
 OpenAPI (Swagger) as input and much more on [Github](https://github.com/getsynth/synth)
 
 # Learn more and Contribute
-[GitHub Synth Project](https://github.com/getsynth/synth)
-[Join us at Discord channel ](https://discord.gg/ANMJyYGHhN)
-Email: alex@metacortex.engineer
+* [GitHub Synth Project](https://github.com/getsynth/synth)
+* [Join us at Discord channel ](https://discord.gg/ANMJyYGHhN)
+* Email: alex@metacortex.engineer
