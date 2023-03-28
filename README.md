@@ -5,7 +5,8 @@
 I am going to present a short demo using open source synthetic data tool:
 
 * Synth available on https://www.getsynth.com/
-* Originally developed by Shuttle team who pivoted into building https://www.shuttle.rs/ hosting and now maintained by [Sam](https://github.com/iamwacko) and [Alex](https://github.com/alexmikhalev/)
+* Written in Rust, extremely fast and memory efficient
+* Originally developed by Shuttle team who pivoted into building https://www.shuttle.rs/ hosting for Rust developers and now maintained by [Sam](https://github.com/iamwacko) and [Alex](https://github.com/alexmikhalev/)
 
 # Install synth
 ```
@@ -36,13 +37,13 @@ curl --proto '=https' --tlsv1.2 -sSL https://getsynth.com/install | sh
 # Synthetic data flow
 Generate synthetic data
 ```
-			  synth generate IoT/ --collection sensors_data --size 1 --to jsonl:sensors_data.jsonl
+synth generate IoT/ --collection sensors_data --size 1 --to jsonl:sensors_data.jsonl
 ```
 
 Feed into MQTT broker
 
 ```
-			  cat sensor_data.jsonl | mosquitto_pub -h 192.168.49.4 -p 1883 -t test --stdin-line
+cat sensor_data.jsonl | mosquitto_pub -h test.mosquitto.org -p 1883 -t test --stdin-line
 ```
 
 # Create synthetic data using Cloud Event specification
