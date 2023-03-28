@@ -120,13 +120,13 @@ synth generate IoT/ --collection sensors_data --size 50000 --to jsonl:sensors_da
 
 Synth allows to import PosgreSQL schema:
 ```
-			  synth import --from postgres://user:pass@localhost:5432/postgres --schema main my_namespace
+synth import --from postgres://user:pass@localhost:5432/postgres --schema main my_namespace
 ```
 
 # And generate synthetic data into database
 
 ```
-		  synth generate --to postgres://user:pass@localhost:5432/ --schema main my_namespace
+synth generate --to postgres://user:pass@localhost:5432/ --schema main my_namespace
 ```
 `synth` can generate data directly into your PostgreSQL database. First `synth` will generate as much data as required, then open a connection to your database, and then perform batch insert to quickly insert as much data as you need.
 `synth` will also respect primary key and foreign key constraints, by performing a [topological sort](https://en.wikipedia.org/wiki/Topological_sorting) on the data and inserting it in the right order such that no constraints are violated.
