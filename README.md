@@ -43,7 +43,7 @@ synth generate IoT/ --collection sensors_data --size 1 --to jsonl:sensors_data.j
 Feed into MQTT broker
 
 ```
-cat sensor_data.jsonl | mosquitto_pub -h test.mosquitto.org -t am1-mqtt-topic --stdin-line
+cat sensors_data.jsonl | mosquitto_pub -h test.mosquitto.org -t am1-mqtt-topic --stdin-line
 ```
 
 # Create synthetic data using Cloud Event specification
