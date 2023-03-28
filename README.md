@@ -9,28 +9,28 @@ I am going to present a short demo using open source synthetic data tool:
 
 # Install synth
 ```
-			  curl --proto '=https' --tlsv1.2 -sSL https://getsynth.com/install | sh
+curl --proto '=https' --tlsv1.2 -sSL https://getsynth.com/install | sh
 ```
 
 # Data Pipeline to be tested MQTT to PostgreSQL
 
 ``` mermaid
-		  graph LR;
-		  sensor("IOT sensor")
-		  mqtt_server("MQTT Server ")
-		  mqtt("MQTT Connector(s)")
-		  topic("Fluvio topic")
-		  sm_json_to_json("JSON to JSON Smart Module")
-		  sm_json_to_sql("JSON to SQL transformation")
-		  pgout("SQL out connector(s)")
-		  pgext("External Postgresql DB")
-		  mqtt_server--> mqtt
-		  subgraph fc[Fluvio cluster]
-		  mqtt --> topic
-		  topic -->sm_json_to_json--> sm_json_to_sql--> pgout
-		  end
-		  sensor --> mqtt_server
-		  pgout --> pgext
+  graph LR;
+  sensor("IOT sensor")
+  mqtt_server("MQTT Server ")
+  mqtt("MQTT Connector(s)")
+  topic("Fluvio topic")
+  sm_json_to_json("JSON to JSON Smart Module")
+  sm_json_to_sql("JSON to SQL transformation")
+  pgout("SQL out connector(s)")
+  pgext("External Postgresql DB")
+  mqtt_server--> mqtt
+  subgraph fc[Fluvio cluster]
+  mqtt --> topic
+  topic -->sm_json_to_json--> sm_json_to_sql--> pgout
+  end
+  sensor --> mqtt_server
+  pgout --> pgext
 ```
 
 # Synthetic data flow
