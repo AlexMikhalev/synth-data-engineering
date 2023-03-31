@@ -65,7 +65,7 @@ I created `iodata.json`
     "eyAieHl6IjogMTIzIH0="
   ]
 ```
-available at synth data workspace FIXME: insert link
+available at [synth data workspace](https://github.com/AlexMikhalev/synth-data-engineering/)
 and called it out of collection with:
 ```
 cat IoT/sensors_data.json
