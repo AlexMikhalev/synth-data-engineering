@@ -6,7 +6,7 @@ I am going to present a short demo using open source synthetic data tool:
 
 * Synth available on https://www.getsynth.com/
 * Written in Rust, extremely fast and memory efficient
-* Originally developed by Shuttle team who pivoted into building https://www.shuttle.rs/ hosting for Rust developers and now maintained by [Sam](https://github.com/iamwacko) and [Alex](https://github.com/alexmikhalev/)
+* Originally developed by the Shuttle team who pivoted into building https://www.shuttle.rs/ hosting for Rust developers and now maintained by [Sam](https://github.com/iamwacko) and [Alex](https://github.com/alexmikhalev/)
 
 # Install synth
 ```
@@ -47,7 +47,7 @@ cat sensors_data.jsonl | mosquitto_pub -h test.mosquitto.org -t am1-mqtt-topic -
 ```
 
 # Create synthetic data using Cloud Event specification
-For example I have sensors and devices and I wanted to test that sensors can emit all kind of messages handled by cloud events - including encoding xml inside payload
+For example, I have sensors and devices and I wanted to test that sensors can emit all kinds of messages handled by cloud events - including encoding xml inside payload
 if you have to follow cloud event specification [link](https://github.com/cloudevents/spec/blob/v1.0.2/cloudevents/spec.md#event-data)
 Event type can be encoded xml, typed data - digit, json array and  base24 encoded data.
 I created `iodata.json`
@@ -117,14 +117,13 @@ And then generate synthetic data:
 synth generate IoT/ --collection sensors_data --size 50000 --to jsonl:sensors_data_50000.jsonl
 ```
 
-# Create synthetic data from PostgreSQL scheme
-
-Synth allows to import PosgreSQL schema:
+# Create synthetic data from the PostgreSQL scheme
+Synth allows importing PostgreSQL schema:
 ```
 synth import --from postgres://user:pass@localhost:5432/postgres --schema main my_namespace
 ```
 
-# And generate synthetic data into database
+# And generate synthetic data into the database
 
 ```
 synth generate --to postgres://user:pass@localhost:5432/ --schema main my_namespace
@@ -149,7 +148,7 @@ function test-generate() {
 }
 ```
 
-And the same approach can be applied to end to end tests for more complex pipelines: **check the difference between generated and landed data**
+And the same approach can be applied to end-to-end tests for more complex pipelines: **check the difference between generated and landed data**
 
 # Further reading
 * Bank data [tutorial](https://www.getsynth.com/docs/examples/bank)
@@ -160,5 +159,5 @@ OpenAPI (Swagger) as input and much more on [Github](https://github.com/getsynth
 
 # Learn more and Contribute
 * [GitHub Synth Project](https://github.com/getsynth/synth)
-* [Join us at Discord channel ](https://discord.gg/ANMJyYGHhN)
+* [Join us on Discord channel ](https://discord.gg/ANMJyYGHhN)
 * Email: alex@metacortex.engineer
